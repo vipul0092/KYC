@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_sub.master.cs" Inherits="MasterPages_MasterPage_sub" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Scripts/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            width: 112px;
+            height: 26px;
+        }
+        .auto-style4 {
+            width: 124px;
+            height: 26px;
+        }
+        .auto-style5 {
+            width: 126px;
+            height: 26px;
+        }
+        .cellBorder {
+            border-right-style: solid; border-right-width: thin; border-right-color: #000000
+        }
+    </style>
+</head>
+<body style="background-repeat:repeat; background-image:url('../Images/background.jpg'); margin: 0px 0px 0px 0px;">
+  <form id="form1" runat="server">
+     <table id="mainTable" align="center"><tbody>
+       <tr><td><table><tr><td><div id="Header"><a id="A1" href="~/" runat="server"><img src="../Images/logo.png" style="height: 100px" /></a></div></td></tr></table></td></tr>
+       <tr><td><div id="MenuWrapper" style="margin-bottom:1.5px">                              
+          <table style="width:850px; border-style: solid; border-width: thin; background-color: #81ca18; border-radius: 4px 4px;">
+                     <tbody>
+                         <tr>
+                            <td class="menuHome , menuText , centerAlign , cellBorder , headerLink"><a class="menuLinks" href="../Default.aspx">HOME</a></td>
+                            <td class="menuCompanies , menuText , centerAlign , cellBorder , headerLink"><a class="menuLinks" href="../Companies.aspx">COMPANIES</a></td>
+                             <td class="menuReview , menuText , centerAlign , cellBorder , headerLink"><a class="menuLinks" href="../SubmitReview/Default.aspx">RATE EMPLOYER</a></td>
+                             <td class="menuFAQ , menuText , centerAlign , cellBorder , headerLink"><a class="menuLinks" href="../View/FAQ.aspx">FAQ</a></td>
+                             <td class="menuContact , menuText , centerAlign , headerLink"><a class="menuLinks" href="../View/Contact.aspx">CONTACT US</a></td>
+                         </tr>
+                     </tbody>
+                 </table>                                              
+            </div></td></tr>
+         <tr><td runat="server" id="fullPage" clientidmode="static"><div id="MainContent">
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div></td></tr>
+          <tr><td><div id="Footer">
+              <table style="border-spacing:10px 10px;" align="center">
+                    <tbody>
+                        <tr>
+                            <td class="footerLinks"><a style="text-decoration:none; color: #009933;" href="../View/About.aspx" title="Know a bit more about us & our service">About Us</a></td>
+                            <td class="footerLinks"><a style="text-decoration:none; color: #009933;" href="../View/Contact.aspx" title="Drop a comment or Send Us an E-Mail">Contact Us</a></td>
+                            <td class="footerLinks"><a style="text-decoration:none; color: #009933;" href="../View/Suggestions.aspx" title="Make our service even more better by giving your inputs">Give A Suggestion</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </td></tr></tbody></table>      
+    </form>
+    <asp:ContentPlaceHolder runat="server" ID="cpScriptContent"></asp:ContentPlaceHolder>
+</body>
+</html>

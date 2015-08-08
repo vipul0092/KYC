@@ -1,0 +1,249 @@
+﻿.specialDiv {
+    display:none; float:left; box-shadow: 10px 10px 1px rgba(0,0,0,0.35); padding: 10px 10px 10px 10px; cursor: pointer; width: 150px;
+    border:thick solid #009933; margin: 30px 0px 0px 20px; text-wrap: normal; border-radius: 4px 5px; font-family: Arial, sans-serif; 
+    font-size: 15px; background-color: #d84c4c; color: #fff;
+}
+#PageWrapper {
+    background-color: #C6C6C6;
+}
+table {
+    border-spacing: 0px 0px;
+}
+#Header {
+    width: 850px;
+    height: 100px;
+    background-color: #77C9E5;   
+}
+#headlogo {
+    float: left;
+}
+.footerLinks {
+    text-decoration: none;
+    color: #009933;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bold;
+    background-color: #e8df9c;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+    background-image: -moz-linear-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+    background-image: -ms-linear-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+    background-image: -o-linear-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+    border-radius: 3px 4px;
+    padding: 8px 4px 8px 4px;
+}
+.searchText {
+            height: 28px;
+            width: 200px;
+            background-image: url('../Images/search.png');
+            background-repeat: no-repeat;
+            padding-left: 5px;
+            line-height: 28px; 
+ }        
+#search {
+    float: right;
+}
+#MenuWrapper {
+    width: 850px; font-family: Arial, sans-serif;
+    height: 50px;
+
+}
+#mainTable {
+    font-family: Arial, sans-serif;
+}
+#red {
+    color: #f00;
+}
+#fullPage {background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d5eaf1), to(#fff));
+    background-image: -moz-linear-gradient(linear, left top, left bottom, from(#d5eaf1), to(#fff));
+    background-image: -ms-linear-gradient(linear, left top, left bottom, from(#d5eaf1), to(#fff));
+    background-image: -o-linear-gradient(linear, left top, left bottom, from(#d5eaf1), to(#fff));
+}
+#MainContent 
+{
+width: 850px; background-color: #fff;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d5eaf1));
+    background-image: -moz-linear-gradient(linear, left top, left bottom, from(#fff), to(#d5eaf1));
+    background-image: -ms-linear-gradient(linear, left top, left bottom, from(#fff), to(#d5eaf1));
+    background-image: -o-linear-gradient(linear, left top, left bottom, from(#fff), to(#d5eaf1));
+}
+}
+#Sidebar 
+{
+background-color: Gray;
+width: 250px;
+float: left;
+text-align: center;
+}
+#Footer {
+    text-align: center;
+    clear: both;
+}
+#menuTable {
+            text-align:center;
+            font-size:large;
+            background-color:#F4E6B7;
+}
+#sideCompanies {
+    height: 30px;
+}
+#sideC1, #sideC2, #sideC3, #sideC4, #sideC5 {
+    height:20px;
+    margin:10px 10px 10px 10px;
+}
+.menuText {
+    font-size: 18px; font-weight:700; background-color: #e8df9c;
+    color:#403b3b; background-image:-webkit-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+            background-image:-moz-linear-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+            background-image:-ms-linear-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e));
+            background-image:-o-linear-gradient(linear, left top, left bottom, from(#e8df9c), to(#e4cd1e)); border-radius: 3px 4px;
+}
+.menuLinks {
+    text-decoration:none;
+    color:#d4d130; text-decoration: none; color: #009933;  text-shadow: 1px 1px 1px #000; font-weight: bold;       
+            padding: 8px 4px 8px 4px;
+}
+#MenuWrapper a:hover {
+    text-shadow: 1px 1px 2px #726a6a;
+}
+.headerLink:hover {
+    background-color: #fefa3c;
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#fefa3c), to(#d4d130));
+            background-image:-moz-linear-gradient(linear, left top, left bottom, from(#fefa3c), to(#d4d130));
+            background-image:-ms-linear-gradient(linear, left top, left bottom, from(#fefa3c), to(#d4d130));
+            background-image:-o-linear-gradient(linear, left top, left bottom, from(#fefa3c), to(#d4d130));
+}
+
+.menuHome {
+             text-align: center;      
+             width: 147px;
+             height: 47px;
+        }
+ .menuCompanies {
+            width: 147px;
+            text-align: center; 
+        }
+        .menuReview {
+            width: 147px;
+            text-align: center; 
+        }
+        .menuFAQ {
+            width: 147px;
+            text-align: center; 
+        }
+       .menuContact {
+            width: 147px;
+            text-align: center; 
+        }
+        
+        .footAbout {
+            width: 100px;
+        }
+        .footContact {
+            width: 109px;
+        }
+        .footSuggest {
+            width: 126px;
+        }
+
+#defContent {
+    width: 580px;
+}
+
+#tableContent {
+    margin-top: 40px;
+}
+.auto-style1 {
+            text-align: center;
+            font-size: 17px;
+        }
+.auto-style2 {
+            width: 540px;
+            text-align: center;
+            height: 26px;
+        }
+.centerAlign {
+    text-align: center;
+}
+#sButton {
+    text-align:center;
+}
+#sidebar {
+    width: 194px;
+   background-color: #C0C0C0
+}
+
+.sideLinks {
+    color: #000;
+}
+
+#sideCompany a {
+    text-decoration: none;
+}
+
+.nodecor {
+    text-decoration: none;
+    color: #000;
+}
+#Label3{
+    margin-left: 10px;
+    margin-right: 55px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    float:left; height: 78px;
+    border: thin solid #000;
+    border-radius: 5px 5px; box-shadow: 10px 10px 1px rgba(0,0,0,0.35);
+    background-color: rgba(201, 222, 16, 0.76);
+    text-shadow:1px 1px 12px #726a6a;
+}
+#Label2 {
+    margin-left: 10px;
+    margin-right: 55px;
+    margin-bottom: 10px;
+    padding: 10px 5px 0px 5px;
+    float:left; height: 78px;
+    border: thin solid #000;
+    border-radius: 5px 5px; box-shadow: 10px 10px 1px rgba(0,0,0,0.35);
+    background-color: rgba(201, 222, 16, 0.76);
+    text-shadow:1px 1px 12px #726a6a;
+}
+#Label1 {
+    margin-left: 60px;
+    margin-right: 55px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    float:left; height: 78px;
+    border: thin solid #000;
+    border-radius: 5px 5px; box-shadow: 10px 10px 1px rgba(0,0,0,0.35);
+    background-color: rgba(201, 222, 16, 0.76);
+    text-shadow:1px 1px 12px #726a6a;
+}
+
+#table1in3, #table2in3, #table3in3 {
+    float: left;
+    margin-left: 0px;
+    width: 252px;
+}
+
+.classFloatLeft {
+    float: left;
+}
+
+.compCol {
+    width: 183px;
+}
+
+#nameTop, #ratingTop {
+    height: 34px;
+}
+
+.alphacol, .numCol{
+    width: 18px;
+}
+
+#Table1 {
+    text-align: center;
+}
+
+#controlTable td {
+    text-align: center;
+}
